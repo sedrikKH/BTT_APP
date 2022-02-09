@@ -44,10 +44,10 @@ jobs:
      run :
        aws eks --region eu-central-1 update-kubeconfig --name Adam_for_BTT_Cloud
     
-  #  -   
-  #   name:  Update deployment
-  #   run : 
-  #     kubectl set image deployment/adam-dep adam-app=sedrikkh/node-web-app:latest --record
+    -   
+     name:  Update deployment
+     run : 
+       kubectl set image deployment/adam-dep adam-app=sedrikkh/node-web-app:latest --record
    
 
 
