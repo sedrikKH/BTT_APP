@@ -47,7 +47,7 @@ jobs:
     -   
      name:  Update deployment
      run : 
-       kubectl set image deployment/adam-dep adam-app=sedrikkh/node-web-app:latest --record
+       kubectl set image deployment/adam-app adam-app=sedrikkh/node-web-app:latest --record
    
 
 
