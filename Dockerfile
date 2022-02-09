@@ -4,6 +4,9 @@ FROM node:14
 WORKDIR /usr/src/app
 
 # установка зависимостей
+
+
+
 # символ астериск ("*") используется для того чтобы по возможности
 # скопировать оба файла: package.json и package-lock.json
 COPY package*.json ./
